@@ -1,0 +1,91 @@
+.about-container {
+  width: 80%;
+  margin-top: -10%;
+  margin-left: 10%;
+  position: relative;
+
+  .about-nav-container {
+    height: 5rem;
+
+    .about-logo {
+      font-size: 3rem;
+      font-weight: 100;
+      font-family: 'Roboto Condensed', sans-serif;
+      margin-left: 5%;
+
+      .white-part-about-nav {
+        color: white;
+      }
+
+      .red-part-about-nav {
+        color: red;
+      }
+    }
+
+    .about-social-right {
+      float: right;
+      color: white;
+      margin-top: -6%;
+      margin-right: 3%;
+      font-size: 3rem;
+
+      i {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .about-body-container {
+    background-color: brown;
+    height: 30rem;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    .about-top-title {
+      font-family: 'PT Sans', sans-serif;
+      text-align: center;
+      padding: 2%;
+      color: white;
+      font-weight: 800;
+    }
+
+    .about-columns-container {
+      font-family: 'Roboto Condensed', sans-serif;
+      display: flex;
+      width: 100%;
+      height: 75%;
+      max-height: 75%;
+
+      .about-columns-left {
+        flex: 0 1 50%;
+        min-height: 100%;
+        max-width: 50%;
+        padding: 5rem;
+        padding-top: 2rem;
+
+        h1 {
+          text-align: right;
+          font-size: 4rem;
+          // margin: 2rem 1rem;
+          color: #fff;
+        }
+      }
+
+      .about-columns-right {
+        flex: 0 1 50%;
+        display: flex;
+        height: 100%;
+        max-width: 50%;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        color: #fff;
+        margin: 0 3rem;
+        margin-top: 3.5rem;
+        font-size: 1.2rem;
+        text-align: justify;
+      }
+    }
+  }
+}
