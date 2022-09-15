@@ -1,4 +1,4 @@
-import banner from '../../assets/banner.jpg';
+import banner from '../../assets/images/1.jpg';
 
 import './header.styles.scss';
 
@@ -10,17 +10,15 @@ const Header = () => {
           <a href='#home'>ГОЛОВНА</a>
           <a href='#news'>ПРО НАС</a>
           <a href='#contact'>ЧОМУ МИ?</a>
-          <a href='#about'>ГАЛЕРЕЯ</a>
-          <a href='#about'>ДЛЯ ЗАМОВЛЕННЯ</a>
-          <a href='#about'>АНКЕТА</a>
-          <a href='#about'>ВІДГУКИ</a>
+          <a href='#gallery'>ГАЛЕРЕЯ</a>
+          <a href='#to-order'>ДЛЯ ЗАМОВЛЕННЯ</a>
+          <a href='#anketa'>АНКЕТА</a>
+          <a href='#testimonials'>ВІДГУКИ</a>
         </div>
       </div>
       <div className='main-title-container'>
-        <div className='main-text'>
-          CARPENKO
-        </div>
-        <div className="secondary-text">
+        <div className='main-text'>CARPENKO</div>
+        <div className='secondary-text'>
           Вишукане поєднання світових технологій
           <br />
           та справжньої української майстерності
