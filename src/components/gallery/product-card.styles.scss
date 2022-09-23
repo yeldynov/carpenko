@@ -1,0 +1,122 @@
+.main-product-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  position: relative;
+}
+
+.product-container {
+  // display: flex;
+  // justify-content: flex-start;
+  // align-items: center;
+  // min-height: 50vh;
+  // position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: auto;
+  // height: 300px;
+
+  margin: 20px;
+}
+
+.product-container .imgBx {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.product-container .imgBx img {
+  position: relative;
+  width: 700px;
+  max-height: 400px;
+}
+
+.product-container .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.product-container .details h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  line-height: 0.8em;
+}
+
+.product-container .details p {
+  max-width: 85%;
+  color: #333;
+  font-size: 15px;
+  margin: 1rem 0;
+}
+
+.product-container .details h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  color: #a2a2a2;
+  float: left;
+}
+
+.product-container .details button {
+  background: #911009;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: none;
+  outline: none;
+  padding: 15px 20px;
+  margin-top: 5px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  float:left;
+  cursor: pointer;
+}
+
+@media (max-width: 1080px) {
+  .product-container {
+    height: auto;
+  }
+
+  .product-container .imgBx {
+    padding: 40px;
+    box-sizing: border-box;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .product-container .imgBx img {
+    left: initial;
+    max-width: 100%;
+    height: 60vh;
+  }
+
+  .details {
+    width: 100% !important;
+    height: auto;
+    padding: 20px;
+  }
+
+  .product-container .details p {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}

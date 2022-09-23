@@ -1,40 +1,51 @@
+import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
+
+import aboutImage from '../../assets/images/6.jpg';
+
 import './about.styles.scss';
 
 const About = () => {
   return (
-    <div className='about-container'>
-      <div className='about-nav-container'>
-        <div className='about-logo'>
-          <span className='white-part-about-nav'>CARPEN</span>
-          <span className='red-part-about-nav'>KO</span>
-        </div>
-        <div className='about-social-right'>
-          <span>
-            <i className='fa-brands fa-youtube'></i>
-            <i className='fa-brands fa-telegram'></i>
-            <i className='fa-brands fa-instagram'></i>
-          </span>
-        </div>
-      </div>
-      <div className='about-body-container'>
-        <div className='about-top-title'>
-          <h3>ПРО НАС</h3>
-        </div>
-        <div className='about-columns-container'>
-          <div className='about-columns-left'>
-            <h1>
-              Декілька слів <br /> про нашу <br /> команду
-            </h1>
+    <div id='about' className='about-section'>
+      <div className='about-container'>
+        <div className='about-content-section'>
+          <div className='about-title'>
+            <h1>ПРО НАС</h1>
           </div>
-          <div className='about-columns-right'>
-            Carpenko - українська команда, що об'єднала талановитих дизайнерів
-            та теслярів. <br />
-            Ми просто одержимі красивими та практичними речами з дерева. <br />
-            Захоплюємося нашими віковими традиціями, <br /> а також досліджуємо
-            Схід та Захід. <br />
-            Головне для нас - щирість у праці та увага до дрібниць. <br />
-            Ми не бажаємо просто змінити побут, <br /> ми хочему змінити життя.
+          <div className='about-content'>
+            <h3>Декілька слів про нашу команду</h3>
+            <p>
+              Carpenko - українська команда, що об'єднала талановитих дизайнерів
+              та теслярів. Ми просто одержимі красивими та практичними речами з
+              дерева. Захоплюємося нашими віковими традиціями, а також
+              досліджуємо Схід та Захід. Головне для нас - щирість у праці та
+              увага до дрібниць. Ми не бажаємо просто змінити побут, ми хочему
+              змінити життя.
+            </p>
+            <div className='about-button'>
+              <a href='#'>Читати більше</a>
+            </div>
+            <div className='about-social'>
+              <a href='#'>
+                <i>
+                  <FaFacebook />
+                </i>
+              </a>
+              <a href='#'>
+                <i>
+                  <FaInstagram />
+                </i>
+              </a>
+              <a href='#'>
+                <i>
+                  <FaYoutube />
+                </i>
+              </a>
+            </div>
           </div>
+        </div>
+        <div className='about-image-section'>
+          <img src={aboutImage} alt='' />
         </div>
       </div>
     </div>

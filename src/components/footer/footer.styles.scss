@@ -222,3 +222,21 @@ footer .widget ul {
 .widget_gallery.gallery-grid-4 li {
   width: 33.3%;
 }
+
+@media only screen and (max-width: 1024px) {
+  .widget_gallery {
+    display: none;
+  }
+
+  .footer-cta {
+    display: none;
+  }
+
+  .footer-menu-bottom {
+    display: none;
+  }
+
+  .footer-widget-heading {
+    margin-top: 1rem;
+  }
+}
